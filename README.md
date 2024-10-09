@@ -1,5 +1,7 @@
 # PatientManagement
 
+![Screenshot 2024-10-09 161119](https://github.com/user-attachments/assets/61661a62-3036-4ebf-94e5-ce234ca0aedf)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 
 ## Development server
