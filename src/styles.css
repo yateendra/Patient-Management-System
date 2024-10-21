@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    overflow-x: hidden;
+}
+
+.mysvg{
+    margin-right: .5rem !important;vertical-align: -.125em; pointer-events: none; fill: currentColor;width: 16px;height:16px
+}
+
+thead{
+        background: #f3f3f3 !important;
+}
+
+
+.mysvg2 {
+    /* margin-right: .5rem !important; */
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
+}
+
+div#myModal2 {
+    backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1 !important;
+
+}
+
+html, body { height: 100%; }
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+
+
+

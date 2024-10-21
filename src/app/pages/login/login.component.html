@@ -1,0 +1,71 @@
+<div class="card border-light-subtle shadow-sm d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="row g-0">
+      <div class="col-12 col-md-6 text-bg-primary d-none d-sm-block loginleft" style=" height: 100vh;">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div class="col-10 col-xl-8 py-3">
+            <h2 class="h1 mb-4">Petient management System</h2>
+            <hr class="border-primary-subtle mb-4">
+            <h3 class="h3 mb-4">Welcome to Petient management System !!</h3>
+            <p class="lead m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem metus, lacinia at lectus sit amet, ultrices fermentum nunc. Nulla quis velit at libero mollis tempor non at enim. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 d-flex align-items-center justify-content-center" style="max-width: 650px ">
+        <div class="card-body p-6 p-md-4 p-xl-5">
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-5">
+                <h3>Admin</h3>
+              </div>
+            </div>
+          </div>
+          <form action="#">
+            <div class="row gy-3 gy-md-4 overflow-hidden">
+              <div class="col-12">
+                <label for="email" class="form-label">Username<span class="text-danger">*</span></label>
+                <input type="email" class="form-control border-primary border border-3" name="userName" [(ngModel)]="loginObj.userName" required>
+              </div>
+              <div class="col-12">
+                <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+                <input type="password" class="form-control border-primary border border-3" name="password" [(ngModel)]="loginObj.password" value="" required>
+              </div>
+              
+              <div class="col-12">
+                <div class="d-grid">
+                  <button class="btn bsb-btn-xl btn-primary" (click)="onLogin()">Log in now</button>
+                </div>
+              </div>
+            </div>
+          </form>
+          
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <!-- <body class="d-flex justify-content-center align-items-center vh-100 bg-light text-center bg-success p-2 text-dark" style="background-color:#f5f5f5 !important">
+  
+    
+    
+    <form class="mx-auto p-4 shadow-sm bg-white rounded" style="max-width: 330px;min-width: 430px;">
+      <h1 class="h3 mb-3 fw-normal">Admin</h1>
+      
+      <hr>
+      <div class="mb-3">
+        <label for="" class="form-label">Email address</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <button type="submit" class="w-100 btn btn-lg btn-primary">Submit</button>
+    </form>
+    
+  </body> -->
+  
